@@ -1,0 +1,155 @@
+<!doctype html>
+
+<html lang="de">
+    <head>
+        <title>Datenvogelhäuschen.de - Startseite</title>
+
+        <style>
+            body {
+                /* Hide body until everything is loaded */
+                display: none;
+            }
+        </style>
+
+        <meta charset="UTF-8">
+        <meta name="description" content="Das Datenvogelhäuschen ist ein open-source System, welches Daten sammelt und zusammenträgt um den lokalen Vogelbestand zu schützen. Jeder kann mitmachen - man braucht nur ein Datenvogelhäuschen-Gerät!">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+
+        <link rel="shortcut icon" type="image/x-icon" href="favicon.ico">
+
+        <link href="css/bootstrap-grid.min.css" rel="stylesheet" type="text/css">
+        <link href="css/style.css" rel="stylesheet" type="text/css">
+    </head>
+
+    <body>
+        <div class="page-container container">
+            <div class="navbar">
+                <ul>
+                    <li>
+                        <img src="img/icon.png" alt="Datenvogelhäuschen.de Icon" class="navbar-title-icon">
+                        <a href="/" class="navbar-title">Datenvogelhäuschen.de</a>
+                    </li>
+
+                    <li class="float-right">
+                        <a class="link-button navbar-button" href="https://dash.datenvogelhäuschen.de/login">Anmelden / Reg...</a>
+                    </li>
+
+                    <li class="float-right d-md-inline-block d-none">
+                        <div class="navbar-light">
+                            Vogelschutz für jeden.
+                        </div>
+                    </li>
+                </ul>
+            </div>
+
+            <div class="header-section">
+                <img src="img/camera-preview-header.jpg" alt="Bild aus dem Vogelhäuschen" class="d-md-block d-none header-image">
+                <img src="img/device-box-header.png" alt="Bild von der Box des Datenvogelhäuschens" class="header-image-secondary d-md-block d-none">
+                <img src="img/webapp-screenshot-header.png" alt="Screenshot eines Browser-Fensters mit der Webapp des Datenvogelhäuschens" class="header-image-webapp d-md-block d-none">
+
+                <div class="header-title">
+                    Das Datenvogelhäuschen. &nbsp;&nbsp;
+                </div>
+
+                <br>
+
+                <div class="header-subtitle">
+                    Jeder kann zuhause Vögel schützen. Dafür braucht man nur ein wenig Technik.
+                </div>
+
+                <a href="https://dash.datenvogelhäuschen.de/login" class="link-button header-button">Datenvogelhäuschen DASH öffnen.</a>
+            </div>
+
+            <div class="content-section">
+                <div class="citation">
+                    <blockquote cite="https://www.nabu.de/natur-und-landschaft/landnutzung/landwirtschaft/artenvielfalt/vogelsterben/index.html">
+                        Eine Auswertung [...] kommt zu dem erschreckenden Ergebnis, dass von 1980 bis 2016 [...] in Deutschland rund 40 Prozent aller Feldvögel verschwunden sind.
+                    </blockquote>
+
+                    <a href="https://www.nabu.de/natur-und-landschaft/landnutzung/landwirtschaft/artenvielfalt/vogelsterben/index.html">Zitiert von: NABU</a>
+                </div>
+
+                <div class="document-thingy">
+                    <div class="row">
+                        <div class="col-md-8 col">
+                            <div class="document-title">
+                                Was ist das hier eigentlich?
+                            </div>
+
+                            <div class="document-desc">
+                                In unserem Projektbericht für den VDE Technikpreis kannst du mehr über unser Projekt
+                                und dessen Entwicklungsvorgang herausfinden.
+                            </div>
+
+                            <a class="link-button document-button" href="/documents/das-datenvogelhäuschen.pdf">
+                                Zum Projektbericht.
+                            </a>
+                        </div>
+
+                        <div class="col d-md-block d-none">
+                            <img src="img/document-screenshot.png" alt="Screenshot aus dem Dokument" class="document-screenshot">
+                        </div>
+                    </div>
+                </div>
+
+                <div class="youtube-video">
+                    <div class="youtube-video-title">
+                        Unser YouTube Video erklärt das Datenvogelhäuschen.
+                    </div>
+
+                    <iframe class="youtube-video-embed" width="1280" height="720" src="https://www.youtube.com/embed/ecCdjaSckSg" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                </div>
+
+                <div class="datasharing-info">
+                    <div class="row">
+                        <div class="col-xl-7 col">
+                            <div class="datasharing-info-title">
+                                Daten sammeln und teilen.
+                            </div>
+
+                            <div class="datasharing-info-desc">
+                                Beim Datenvogelhäuschen gehts um - wer hätte es gedacht? - Daten! Verschiedenste Sensoren und eine
+                                Kamera im Gerät erfassen alle paar Sekunden bis Minuten (je nach Sensor) aktuelle Wetterdaten, sowie
+                                Daten zum Vogel. Diese werden dann mit Umweltschutzorganisationen, den Wetterdiensten und weiteren
+                                wohltätigen Organisationen geteilt - natürlich nur, sofern der Nutzer es erlaubt.
+                            </div>
+                        </div>
+
+                        <div class="col d-xl-block d-none">
+                            <img src="img/temperature-graph.png" alt="Vom Datenvogelhäuschen ausgelesener Temperatur-Graph" class="datasharing-info-graph">
+                        </div>
+                    </div>
+                </div>
+
+                <div class="github-repo">
+                    <a href="https://github.com/jbohnst/datenvogelhauschen-software" target="_blank" class="github-repo-link">Zum GitHub Repository</a>
+                </div>
+
+                <div class="live-demo">
+                    <div class="live-demo-title">
+                        Noch skeptisch? Probier's doch mal!
+                    </div>
+
+                    <div class="live-demo-desc">
+                        In unserer Simulation des Datenvogelhäuschens kannst du selber die Nutzeroberfläche des Datenvogelhäuschens
+                        ausprobieren; ganz ohne ein Datenvogelhäuschen zu besitzen.
+                    </div>
+
+                    <a href="demo/index.html" class="link-button">Zur Simulation.</a>
+                </div>
+
+                <div class="footer">
+                    <div class="footer-copyright">
+                        &copy; datenvogelhäuschen.de 2022
+                    </div>
+
+                    <div class="footer-links">
+                        <a href="legal/imprint.html">Impressum</a>
+                        &middot;
+                        <a href="legal/privacy-policy.html">Datenschutzerklärung</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </body>
+</html>
