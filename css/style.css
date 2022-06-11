@@ -296,6 +296,27 @@ body {
     font-style: italic;
 }
 
+.diy-seg {
+    margin-bottom: 45px;
+}
+
+.diy-seg-title {
+    font-family: Georgia, sans-serif;
+    font-weight: 700;
+    font-size: 25px;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.diy-seg-desc {
+    margin: 0 25px;
+}
+
+.diy-seg-button-wrapper {
+    margin-top: 30px;
+    text-align: center;
+}
+
 .footer {
     font-size: 12px;
     margin-bottom: 30px;
